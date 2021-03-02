@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  top: 0px;
+  left: 0px;
+  background: #72A1BF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color: #72A1BF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-home{
+  top: 29px;
+  left: 32px;
+  width: 84px;
+  height: 42px;
+  border-radius: 4px;
+  opacity: 1;
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+}
+
+.window1{
+  width: 1137px;
+  height: 668px;
+  background: #074770 0% 0% no-repeat padding-box;
+  border-radius: 36px;
+  opacity: 1;
+  top: 205px;
+  left: 392px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.window2{
+  /*top: 356px;
+  left: 392px;
+  width: 523px;*/
+  height: 519px;
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 0px 36px;
+  opacity: 1;
+}
+
+.window3{
+  /*width: 600px;
+  top: 356px;
+  left: 915px;*/
+  height: 519px;
+  border-radius: 0px 0px 36px 0px;
+  opacity: 1;
+  background: #F2FAFF 0% 0% no-repeat padding-box;
+}
+
+body{
+  background-color: #72A1BF;
+}
+
+.g-3{
+  margin-top: 2.5vw;
+  margin-bottom: 3.5vw;
+  margin-left: 1vw;
+  margin-left: 1vw;
+}
+
+.btn-home{
+  left: 10px;
+}
+
+.submit{
+  top: 264px;
+  left: 1288px;
+  width: 179px;
+  height: 42px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  opacity: 1;
+}
+
+label{
+  color: #A5C0D1;
+}
+
+.form{
+  top: 272px;
+  left: 428px;
+  /*width: 179px;
+  height: 42px;*/
+  background-color: #F2FAFF;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.all-coordinates{
+  width: 135px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Segoe UI;
+  letter-spacing: 0px;
+  color: #123043;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+#map{
+  height: inherit;
+  width: 655px;
+  border-radius: 0px 0px 36px 0px;
+}
+
+.show-route{
+  top: 794px;
+  left: 428px;
+  width: 445px;
+  height: 42px;
+  background: #074770 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  opacity: 1;
+  color: white;
+  margin-top: 300px;
+  margin-bottom: 39px; 
+}
